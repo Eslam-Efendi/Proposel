@@ -1,0 +1,56 @@
+---
+title: "Sosio-Economic analysis of divorce rates in the UK"
+author: https://github.com/Eslam-Efendi/Proposel
+  - TAWFIK, Eslam[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+
+<!-- ============================== FOOTNOTES ============================== -->
+
+<!-- ======================================================================= -->
+
+# Introduction
+
+ 
+Marriage is a central social institution in society, if it is not the "the" central institution of society, where the family constitutes the smallest social and political unit, as it plays a central role in integrating children into society and political and economic life. However, divorce rates, which are an indicator of the breakdown of families, have increased significantly since the seventies. As it has increased to double or more in many European countries, which raises the question about the reasons and factors behind this large increase in divorce rates.
+
+The study aims to analyze data related to various social and economic factors in order to understand this increase in divorce rates by focusing on the United Kingdom for the availability of data. Related to the matter, as the UK office for national data publishes many societal data related to marriage, family, and gender differences.
+
+The data that will be analyzed consists of 26 independent factors. The study aims to analyze the relationship between those factors and the divorce rate in the United Kingdom, and if they are influential How strong is the influence of these factors? The study also aims to explain the impact of divorce rates on these factors in the light of the results of previous research conducted on the subject and as a result of analyzing UK data. This study includes economic data.
+
+## Literature Review
+
+
+Despite the fact that the high divorce rates are common to most countries in Europe and the United States, the interpretation of this increase and the impact of various factors on it has remained a matter of controversy among studies, as some studies attribute this increase to social factors such as (Lesthaeghe, Ron) and (McLanahan2004) who confirm On the impact of the increase in the rates of marriage for the first time at an old age and the prevalence of cohabitation without marriage and children born out of wedlock, while the study (Harkonen2006) considers that the percentage of education is also an influential factor, but the direction of its effect is not clear, as it affects negatively in some countries and positively in others. The study attributes this to the prevalence of divorce and the social and economic cost that spouses will pay due to divorce. Another study finds that education affects positively or negatively according to the age of marriage, while some other studies confirm the positive impact of economic factors such as unemployment and income on divorce rates in many European countries (Cooke2006), while another study indicates a different economic factor related to the level of the wife's income that negatively affects the divorce rate (Amato2007), while on the contrary, a study conducted in the states (Rueschemeyer1983) that the increase in the participation rate of women in the labor market is what led to the significant increase in divorce rates
+
+\newpage
+
+# References {#references}
+
